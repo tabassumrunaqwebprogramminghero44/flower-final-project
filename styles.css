@@ -1,0 +1,329 @@
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 100vh;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-inside {
+  margin: auto 20%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content {
+  max-width: 650px;
+}
+
+.header-content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #272727;
+  text-shadow: 2px 4px 10px #27272794;
+}
+
+.header-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.shop-now-btn {
+  width: 130px;
+  border: none;
+  padding: 15px 5px;
+  background-color: #e55473;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.shop-now-btn-header {
+  margin-top: 20px;
+}
+
+.flower-part {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+.flower-part::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.flower-image {
+  width: 500px;
+  background-image: url("images/pngwing 10.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.featured-flowers {
+  margin: auto 20%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.featured-flowers-inside {
+  text-align: center;
+}
+
+.featured-flowers-title {
+  flex-basis: 100%;
+  max-width: 450px;
+  margin-bottom: 100px;
+}
+
+.featured-flowers-title h3 {
+  font-size: 24px;
+}
+
+.featured-flowers-title p {
+  margin-top: 20px;
+}
+
+.flowers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.flower-card {
+  flex-basis: calc(33.33% - 30px);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.flower-card u {
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.flower-card img {
+  width: 180px;
+}
+
+.flower-card-1,
+.flower-card-2,
+.flower-card-3 {
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.flower-card-1 {
+  background-image: url("images/pngwing\ 6.png");
+}
+.flower-card-2 {
+  background-image: url("images/pngwing\ 5.png");
+}
+.flower-card-3 {
+  background-image: url("images/pngwing\ 7.png");
+}
+.hot-deals {
+  height: 400px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hot-deals-inside {
+  margin: 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hot-deal-img {
+  width: 250px;
+  height: 250px;
+  background-image: url("images/pngwing 8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hot-deals span {
+  color: #e55473;
+}
+
+.hot-deal-title {
+  text-align: center;
+}
+
+.hot-deal-title h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hot-deal-title p {
+  align-self: center;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.instagram {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.instagram-title {
+  text-align: center;
+}
+
+.instagram-inside {
+  margin: auto 20%;
+}
+
+.flowers-grid-instagram {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.flower-card-instagram {
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
+
+  flex-basis: calc(25% - 30px);
+}
+
+.flower-card-instagram {
+  background-image: url("images/Flower\ 01.png");
+}
+
+.flower-card-image-instagram2 {
+  background-image: url("images/Rectangle\ 4.png");
+}
+
+.flower-card-image-instagram3 {
+  background-image: url("images/Rectangle\ 5.png");
+}
+
+.flower-card-image-instagram4 {
+  background-image: url("images/Rectangle\ 6.png");
+}
+
+.latest-deals {
+  margin-bottom: 100px;
+  margin: auto 20%;
+  border-radius: 8px;
+  height: 420px;
+  background-image: url("images/Rectangle 9.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.latest-deals-inside {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.latest-deals-inside {
+  height: 100%;
+}
+
+.latest-deals-title {
+  text-align: center;
+}
+
+.latest-deals-title h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.latest-deals-title p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.input-field {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.latest-deals input {
+  border: none;
+  background-color: white;
+  width: 400px;
+  margin-right: 20px;
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: black;
+  height: 400px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content h4 {
+  color: #e55473;
+}
+
+.footer-content p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-content .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
